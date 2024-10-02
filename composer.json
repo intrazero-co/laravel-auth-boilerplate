@@ -1,0 +1,34 @@
+{
+    "name": "intrazero/authentication",
+    "description": "Multi-User Type Registration with Dynamic Fields for Laravel",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Intrazero\\Authentication\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^8.0",
+        "laravel/framework": ">=9.0 <=11.0",
+        "illuminate/support": "^9.0|^10.0|^11.0",
+        "illuminate/routing": "^9.0|^10.0|^11.0",
+        "illuminate/contracts": "^9.0|^10.0|^11.0",
+        "illuminate/console": "^9.0|^10.0|^11.0",
+        "laravel/passport": "^10.0|^11.0",
+        "laravel/sanctum": "^2.15"
+    },
+    "require-dev": {},
+    "scripts": {
+        "post-autoload-dump": [
+            "@php -r \"echo 'Running post-autoload-dump script...\\n';\""
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Intrazero\\Authentication\\Providers\\AuthenticationServiceProvider"
+            ]
+        }
+    }
+}
