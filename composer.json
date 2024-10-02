@@ -1,6 +1,6 @@
 {
     "name": "intrazero/authentication",
-    "description": "Multi-User Type Registration with Dynamic Fields for Laravel",
+    "description": "A flexible multi-user type authentication package for Laravel with dynamic registration fields, supporting Passport and Sanctum for token-based authentication and role-based access.",
     "type": "library",
     "license": "MIT",
     "autoload": {
