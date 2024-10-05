@@ -1,6 +1,6 @@
 <?php
 
-use Intrazero\Authentication\Controllers\API\AuthController;
+use Intrazero\AuthBoilerplate\Controllers\API\AuthController;
 use Illuminate\Support\Facades\Route;
 
 // User registration route

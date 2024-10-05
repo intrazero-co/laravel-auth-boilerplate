@@ -1,8 +1,8 @@
 <?php
 
-namespace Intrazero\Authentication\Services;
+namespace Intrazero\AuthBoilerplate\Services;
 
-use Intrazero\Authentication\Contracts\TokenManagerInterface;
+use Intrazero\AuthBoilerplate\Contracts\TokenManagerInterface;
 use Illuminate\Contracts\Auth\Authenticatable;
 
 class AuthenticationManager
@@ -10,14 +10,14 @@ class AuthenticationManager
     /**
      * The token manager instance.
      *
-     * @var \Intrazero\Authentication\Contracts\TokenManagerInterface
+     * @var \Intrazero\AuthBoilerplate\Contracts\TokenManagerInterface
      */
     protected $tokenManager;
 
     /**
      * AuthenticationManager constructor.
      *
-     * @param \Intrazero\Authentication\Contracts\TokenManagerInterface $tokenManager
+     * @param \Intrazero\AuthBoilerplate\Contracts\TokenManagerInterface $tokenManager
      */
     public function __construct(TokenManagerInterface $tokenManager)
     {

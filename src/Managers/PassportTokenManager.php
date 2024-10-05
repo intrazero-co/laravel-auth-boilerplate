@@ -1,8 +1,8 @@
 <?php
 
-namespace Intrazero\Authentication\Managers;
+namespace Intrazero\AuthBoilerplate\Managers;
 
-use Intrazero\Authentication\Contracts\TokenManagerInterface;
+use Intrazero\AuthBoilerplate\Contracts\TokenManagerInterface;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Http\Request;
 

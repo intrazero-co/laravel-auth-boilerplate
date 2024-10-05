@@ -1,9 +1,9 @@
 <?php
 
-namespace Intrazero\Authentication\Traits;
+namespace Intrazero\AuthBoilerplate\Traits;
 
 use Illuminate\Http\Request;
-use Intrazero\Authentication\Services\AuthenticationManager;
+use Intrazero\AuthBoilerplate\Services\AuthenticationManager;
 
 trait LoginTrait
 {
@@ -11,7 +11,7 @@ trait LoginTrait
      * Handle user login.
      *
      * @param \Illuminate\Http\Request $request
-     * @param \Intrazero\Authentication\Services\AuthenticationManager $authManager
+     * @param \Intrazero\AuthBoilerplate\Services\AuthenticationManager $authManager
      * @return \Illuminate\Http\JsonResponse
      */
     public function login(Request $request, AuthenticationManager $authManager)

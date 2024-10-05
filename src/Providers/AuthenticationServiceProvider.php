@@ -1,13 +1,13 @@
 <?php
 
-namespace Intrazero\Authentication\Providers;
+namespace Intrazero\AuthBoilerplate\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use Intrazero\Authentication\Services\AuthenticationManager;
-use Intrazero\Authentication\Console\InstallAuthentication;
-use Intrazero\Authentication\Contracts\TokenManagerInterface;
-use Intrazero\Authentication\Managers\PassportTokenManager;
-use Intrazero\Authentication\Managers\SanctumTokenManager;
+use Intrazero\AuthBoilerplate\Services\AuthenticationManager;
+use Intrazero\AuthBoilerplate\Console\InstallAuthentication;
+use Intrazero\AuthBoilerplate\Contracts\TokenManagerInterface;
+use Intrazero\AuthBoilerplate\Managers\PassportTokenManager;
+use Intrazero\AuthBoilerplate\Managers\SanctumTokenManager;
 
 class AuthenticationServiceProvider extends ServiceProvider
 {

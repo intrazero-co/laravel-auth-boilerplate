@@ -1,6 +1,6 @@
 <?php
 
-namespace Intrazero\Authentication\Console;
+namespace Intrazero\AuthBoilerplate\Console;
 
 use Illuminate\Console\Command;
 

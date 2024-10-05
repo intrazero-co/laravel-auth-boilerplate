@@ -1,9 +1,9 @@
 <?php
 
-namespace Intrazero\Authentication\Traits;
+namespace Intrazero\AuthBoilerplate\Traits;
 
 use Illuminate\Http\Request;
-use Intrazero\Authentication\Services\AuthenticationManager;
+use Intrazero\AuthBoilerplate\Services\AuthenticationManager;
 
 trait LogoutTrait
 {
@@ -11,7 +11,7 @@ trait LogoutTrait
      * Handle user logout by revoking the token.
      *
      * @param \Illuminate\Http\Request $request
-     * @param \Intrazero\Authentication\Services\AuthenticationManager $authManager
+     * @param \Intrazero\AuthBoilerplate\Services\AuthenticationManager $authManager
      * @return \Illuminate\Http\JsonResponse
      */
     public function logout(Request $request, AuthenticationManager $authManager)

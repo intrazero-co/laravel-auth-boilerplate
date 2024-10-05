@@ -1,10 +1,10 @@
 <?php
 
-namespace Intrazero\Authentication\Traits;
+namespace Intrazero\AuthBoilerplate\Traits;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Hash;
-use Intrazero\Authentication\Services\AuthenticationManager;
+use Intrazero\AuthBoilerplate\Services\AuthenticationManager;
 
 trait RegisterTrait
 {
@@ -12,7 +12,7 @@ trait RegisterTrait
      * Handle user registration.
      *
      * @param \Illuminate\Http\Request $request
-     * @param \Intrazero\Authentication\Services\AuthenticationManager $authManager
+     * @param \Intrazero\AuthBoilerplate\Services\AuthenticationManager $authManager
      * @return \Illuminate\Http\JsonResponse
      */
     public function register(Request $request, AuthenticationManager $authManager)

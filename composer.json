@@ -1,11 +1,11 @@
 {
-    "name": "intrazero/authentication",
+    "name": "intrazero/auth-boilerplate",
     "description": "A flexible multi-user type authentication package for Laravel with dynamic registration fields, supporting Passport and Sanctum for token-based authentication and role-based access.",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Intrazero\\Authentication\\": "src/"
+            "Intrazero\\AuthBoilerplate\\": "src/"
         }
     },
     "require": {
@@ -27,7 +27,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Intrazero\\Authentication\\Providers\\AuthenticationServiceProvider"
+                "Intrazero\\AuthBoilerplate\\Providers\\AuthenticationServiceProvider"
             ]
         }
     }

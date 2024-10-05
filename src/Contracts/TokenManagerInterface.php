@@ -1,6 +1,6 @@
 <?php
 
-namespace Intrazero\Authentication\Contracts;
+namespace Intrazero\AuthBoilerplate\Contracts;
 
 use Illuminate\Contracts\Auth\Authenticatable;
 
